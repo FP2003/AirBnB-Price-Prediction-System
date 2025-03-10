@@ -94,7 +94,7 @@ df['price_log'] = np.log1p(df['price'])
 # %%
 # Update numerical variable list (remove 'price' and use 'price_log')
 numerical_var = [
-    'accommodates', 'bedrooms', 'beds',  # Removed 'bathrooms' as it's missing
+    'accommodates', 'bedrooms', 'beds',
     'price_log', 'number_of_reviews', 'review_scores_rating'
 ]
 
